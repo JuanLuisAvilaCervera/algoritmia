@@ -1,3 +1,4 @@
+//EJERCICIO 1
 function duplicateEncode(word){
   
   let result = '';
@@ -11,7 +12,7 @@ function duplicateEncode(word){
   return result;
 }
 
-
+//EJERCICIO 2
 function findOdd(A) {
   
   let i = 0
@@ -25,6 +26,7 @@ function findOdd(A) {
   return A[i-1]
 }
 
+//EJERCICIO 3
 function ipToInt32(ip) {
   
   let splitIp = ip.split(".")
@@ -38,6 +40,7 @@ function ipToInt32(ip) {
   return sum;
 }
 
+//EJERCICIO 4
 function howManyStep(a,b){
   let count = 0;
   while(a !== b){
@@ -55,14 +58,12 @@ function howManyStep(a,b){
   return count;
 }
 
+//EJERCICIO 5
 function snapshot(scene) {
   
   let photo = scene;
   let start = 0;
   let end = 0;
-  
-  let i = 0
-  let j  = 0;
   if(scene.length >= 11){
     
     start = scene.indexOf('s');

@@ -1,3 +1,5 @@
+
+//EJERCICIO 1
 function spinningRings(innerMax, outerMax) {
   let counter = 0 ;
   let inner = 0;
@@ -17,6 +19,7 @@ function spinningRings(innerMax, outerMax) {
   
 };
 
+//EJERCICIO 2
 function sideLen(x, y) {
   let a = [(x**2 + y**2)**0.5, (y**2 - x**2)**0.5], r = [];
   for (let i = y - x + 1; i < y + x; i++)
@@ -25,6 +28,7 @@ function sideLen(x, y) {
   return r;
 }
 
+//EJERCICIO 3
 function cypher(string) {
   return string.replaceAll('I' , '1').replaceAll('l' , '1').replaceAll('R' , '2').replaceAll('z' , '2')
     .replaceAll('E' , '3').replaceAll('e' , '3').replaceAll('A' , '4').replaceAll('a' , '4')
@@ -33,6 +37,7 @@ function cypher(string) {
     .replaceAll('O' , '0').replaceAll('o' , '0')
 }
 
+//EJERCICIO 4
 function pairs(ar){
   const limit = ar.length % 2 === 0 ? ar.length : ar.length -1;
   let count = 0;
@@ -46,6 +51,7 @@ function pairs(ar){
   
 };
 
+//EJERCICIO 5
 function mobileKeyboard(str){
   const array = ['1234567890*#' , 'adgjmptw' , 'behknqux' , 'cfilorvy' , 'sz'];
   
